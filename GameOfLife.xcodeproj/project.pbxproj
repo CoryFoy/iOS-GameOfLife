@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42184F6CF50531456D48E2B4 /* libPods-GameOfLifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF6A14072F3AE708A51E893 /* libPods-GameOfLifeTests.a */; };
+		A52DF07D1A77C863008EFA63 /* CellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF07C1A77C863008EFA63 /* CellSpec.m */; };
+		A52DF0801A77C9BA008EFA63 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF07F1A77C9BA008EFA63 /* Cell.m */; };
+		A52DF0821A7802D3008EFA63 /* NeighborhoodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0811A7802D3008EFA63 /* NeighborhoodSpec.m */; };
+		A52DF0851A7803B4008EFA63 /* Neighborhood.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0841A7803B4008EFA63 /* Neighborhood.m */; };
+		A52DF0871A781306008EFA63 /* GameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0861A781306008EFA63 /* GameSpec.m */; };
+		A52DF08A1A781339008EFA63 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0891A781339008EFA63 /* Game.m */; };
 		A5E3E6901A772D84000CA06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E68F1A772D84000CA06A /* main.m */; };
 		A5E3E6931A772D84000CA06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E6921A772D84000CA06A /* AppDelegate.m */; };
 		A5E3E6951A772D84000CA06A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E3E6941A772D84000CA06A /* art.scnassets */; };
@@ -14,7 +21,6 @@
 		A5E3E69B1A772D84000CA06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E3E6991A772D84000CA06A /* Main.storyboard */; };
 		A5E3E69D1A772D84000CA06A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E3E69C1A772D84000CA06A /* Images.xcassets */; };
 		A5E3E6A01A772D84000CA06A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E3E69E1A772D84000CA06A /* LaunchScreen.xib */; };
-		A5E3E6AC1A772D84000CA06A /* GameOfLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E6AB1A772D84000CA06A /* GameOfLifeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3342DD6AF4090F5EA8A8195A /* Pods-GameOfLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF6A14072F3AE708A51E893 /* libPods-GameOfLifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameOfLifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52DF07C1A77C863008EFA63 /* CellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSpec.m; sourceTree = "<group>"; };
+		A52DF07E1A77C9BA008EFA63 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		A52DF07F1A77C9BA008EFA63 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		A52DF0811A7802D3008EFA63 /* NeighborhoodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborhoodSpec.m; sourceTree = "<group>"; };
+		A52DF0831A7803B4008EFA63 /* Neighborhood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neighborhood.h; sourceTree = "<group>"; };
+		A52DF0841A7803B4008EFA63 /* Neighborhood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Neighborhood.m; sourceTree = "<group>"; };
+		A52DF0861A781306008EFA63 /* GameSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSpec.m; sourceTree = "<group>"; };
+		A52DF0881A781339008EFA63 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		A52DF0891A781339008EFA63 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		A5E3E68A1A772D84000CA06A /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E3E68E1A772D84000CA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E3E68F1A772D84000CA06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,7 +58,7 @@
 		A5E3E69F1A772D84000CA06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A5E3E6A51A772D84000CA06A /* GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E3E6AA1A772D84000CA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5E3E6AB1A772D84000CA06A /* GameOfLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfLifeTests.m; sourceTree = "<group>"; };
+		E10E6AE16C04D4E6058C691D /* Pods-GameOfLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,18 +73,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42184F6CF50531456D48E2B4 /* libPods-GameOfLifeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E921FADF215408114651D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD6AF4090F5EA8A8195A /* Pods-GameOfLifeTests.debug.xcconfig */,
+				E10E6AE16C04D4E6058C691D /* Pods-GameOfLifeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5E3E6811A772D84000CA06A = {
 			isa = PBXGroup;
 			children = (
 				A5E3E68C1A772D84000CA06A /* GameOfLife */,
 				A5E3E6A81A772D84000CA06A /* GameOfLifeTests */,
 				A5E3E68B1A772D84000CA06A /* Products */,
+				3E921FADF215408114651D71 /* Pods */,
+				C5B71B7D453AFFDF60356359 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +121,12 @@
 				A5E3E69C1A772D84000CA06A /* Images.xcassets */,
 				A5E3E69E1A772D84000CA06A /* LaunchScreen.xib */,
 				A5E3E68D1A772D84000CA06A /* Supporting Files */,
+				A52DF07E1A77C9BA008EFA63 /* Cell.h */,
+				A52DF07F1A77C9BA008EFA63 /* Cell.m */,
+				A52DF0831A7803B4008EFA63 /* Neighborhood.h */,
+				A52DF0841A7803B4008EFA63 /* Neighborhood.m */,
+				A52DF0881A781339008EFA63 /* Game.h */,
+				A52DF0891A781339008EFA63 /* Game.m */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -108,8 +143,10 @@
 		A5E3E6A81A772D84000CA06A /* GameOfLifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				A5E3E6AB1A772D84000CA06A /* GameOfLifeTests.m */,
 				A5E3E6A91A772D84000CA06A /* Supporting Files */,
+				A52DF07C1A77C863008EFA63 /* CellSpec.m */,
+				A52DF0811A7802D3008EFA63 /* NeighborhoodSpec.m */,
+				A52DF0861A781306008EFA63 /* GameSpec.m */,
 			);
 			path = GameOfLifeTests;
 			sourceTree = "<group>";
@@ -120,6 +157,14 @@
 				A5E3E6AA1A772D84000CA06A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B71B7D453AFFDF60356359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6A14072F3AE708A51E893 /* libPods-GameOfLifeTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5E3E6B21A772D84000CA06A /* Build configuration list for PBXNativeTarget "GameOfLifeTests" */;
 			buildPhases = (
+				E584FB80E285A0A05769D71A /* Check Pods Manifest.lock */,
 				A5E3E6A11A772D84000CA06A /* Sources */,
 				A5E3E6A21A772D84000CA06A /* Frameworks */,
 				A5E3E6A31A772D84000CA06A /* Resources */,
+				F9C25D068ED810B55BC69B8E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,12 +265,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E584FB80E285A0A05769D71A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C25D068ED810B55BC69B8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5E3E6861A772D84000CA06A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5E3E6931A772D84000CA06A /* AppDelegate.m in Sources */,
+				A52DF0801A77C9BA008EFA63 /* Cell.m in Sources */,
+				A52DF0851A7803B4008EFA63 /* Neighborhood.m in Sources */,
+				A52DF08A1A781339008EFA63 /* Game.m in Sources */,
 				A5E3E6981A772D84000CA06A /* GameViewController.m in Sources */,
 				A5E3E6901A772D84000CA06A /* main.m in Sources */,
 			);
@@ -233,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E3E6AC1A772D84000CA06A /* GameOfLifeTests.m in Sources */,
+				A52DF0821A7802D3008EFA63 /* NeighborhoodSpec.m in Sources */,
+				A52DF0871A781306008EFA63 /* GameSpec.m in Sources */,
+				A52DF07D1A77C863008EFA63 /* CellSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +452,7 @@
 		};
 		A5E3E6B31A772D84000CA06A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3342DD6AF4090F5EA8A8195A /* Pods-GameOfLifeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +472,7 @@
 		};
 		A5E3E6B41A772D84000CA06A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10E6AE16C04D4E6058C691D /* Pods-GameOfLifeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +505,7 @@
 				A5E3E6B11A772D84000CA06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5E3E6B21A772D84000CA06A /* Build configuration list for PBXNativeTarget "GameOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +514,7 @@
 				A5E3E6B41A772D84000CA06A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

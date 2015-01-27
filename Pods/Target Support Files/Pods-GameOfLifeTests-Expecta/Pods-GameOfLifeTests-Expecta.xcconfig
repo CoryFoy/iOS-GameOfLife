@@ -1,0 +1,1 @@
+PODS_GAMEOFLIFETESTS_EXPECTA_OTHER_LDFLAGS = -framework "Foundation"
