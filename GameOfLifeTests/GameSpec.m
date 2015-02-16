@@ -40,7 +40,6 @@ describe(@"Game", ^{
         [game addCell:n3];
         [game tick];
         expect([target isAlive]).to.equal(YES);
-        
     });
     it(@"kills alive cells with more than 3 alive neighbors", ^{
         Cell *target = [[Cell alloc] initAtLocation:CGPointMake(3,3)];

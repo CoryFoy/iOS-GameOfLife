@@ -14,6 +14,8 @@
 		A52DF0851A7803B4008EFA63 /* Neighborhood.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0841A7803B4008EFA63 /* Neighborhood.m */; };
 		A52DF0871A781306008EFA63 /* GameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0861A781306008EFA63 /* GameSpec.m */; };
 		A52DF08A1A781339008EFA63 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF0891A781339008EFA63 /* Game.m */; };
+		A52DF08C1A7872D0008EFA63 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52DF08B1A7872D0008EFA63 /* SpriteKit.framework */; };
+		A52DF08F1A79280B008EFA63 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DF08E1A79280B008EFA63 /* HelloScene.m */; };
 		A5E3E6901A772D84000CA06A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E68F1A772D84000CA06A /* main.m */; };
 		A5E3E6931A772D84000CA06A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3E6921A772D84000CA06A /* AppDelegate.m */; };
 		A5E3E6951A772D84000CA06A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E3E6941A772D84000CA06A /* art.scnassets */; };
@@ -45,6 +47,9 @@
 		A52DF0861A781306008EFA63 /* GameSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSpec.m; sourceTree = "<group>"; };
 		A52DF0881A781339008EFA63 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		A52DF0891A781339008EFA63 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		A52DF08B1A7872D0008EFA63 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		A52DF08D1A79280B008EFA63 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		A52DF08E1A79280B008EFA63 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 		A5E3E68A1A772D84000CA06A /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E3E68E1A772D84000CA06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E3E68F1A772D84000CA06A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52DF08C1A7872D0008EFA63 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +133,8 @@
 				A52DF0841A7803B4008EFA63 /* Neighborhood.m */,
 				A52DF0881A781339008EFA63 /* Game.h */,
 				A52DF0891A781339008EFA63 /* Game.m */,
+				A52DF08D1A79280B008EFA63 /* HelloScene.h */,
+				A52DF08E1A79280B008EFA63 /* HelloScene.m */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 		C5B71B7D453AFFDF60356359 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A52DF08B1A7872D0008EFA63 /* SpriteKit.framework */,
 				7EF6A14072F3AE708A51E893 /* libPods-GameOfLifeTests.a */,
 			);
 			name = Frameworks;
@@ -305,6 +314,7 @@
 			files = (
 				A5E3E6931A772D84000CA06A /* AppDelegate.m in Sources */,
 				A52DF0801A77C9BA008EFA63 /* Cell.m in Sources */,
+				A52DF08F1A79280B008EFA63 /* HelloScene.m in Sources */,
 				A52DF0851A7803B4008EFA63 /* Neighborhood.m in Sources */,
 				A52DF08A1A781339008EFA63 /* Game.m in Sources */,
 				A5E3E6981A772D84000CA06A /* GameViewController.m in Sources */,
